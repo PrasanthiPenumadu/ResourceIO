@@ -6,7 +6,7 @@ public class FilestreamIO {
         FileInputStream fin=null;
         FileOutputStream fou=null;
         if(args.length!=2){
-                       System.out.println("Usage:Copy file from to");
+                       System.out.println("Usage:Copy file from file1 to file2");
             return;
         }
         try{
