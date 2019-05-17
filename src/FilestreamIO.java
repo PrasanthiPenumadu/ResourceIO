@@ -23,7 +23,7 @@ public class FilestreamIO {
             try{
                if(fin!=null)fin.close();
             }catch (IOException e){
-                System.out.println("Error closing fin ");
+                System.out.println("Error closing fin file ");
             }
             try{
                 if(fou!=null)fou.close();
